@@ -1,0 +1,6 @@
+﻿model,name file
+Inception,inception_frozen:40_epochs=20_patience=3_lr=0.002_dropout=0.5.h5
+InceptionResnet,inceptionresnet_frozen:506_epochs=20_patience=4_lr=0.003_dropout=0.4.h5
+VGG16,VGG16_frozen:16_epochs=20_patience=4_lr=0.002_dropout=0.4.h5
+VGG19,VGG19_frozen:18_epochs=15_patience=3_lr=0.001_dropout=0.4.h5
+Xception,xception_frozen:129_epochs=15_patience=2_lr=0.002_dropout=0.4.h5
